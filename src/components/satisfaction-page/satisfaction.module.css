@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 150px;
+  gap: 20px;
+}
+
+.info h1 {
+  width: 637px;
+  margin-bottom: 42.65px;
+}
+
+.info p {
+  width: 720px;
+  margin-bottom: 18px;
+  color: #0a0213;
+}
+
+.info h5 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+}
+
+.ceo {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 218%;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 36.57px;
+}
+.iconleft {
+  width: 43px;
+  height: 43px;
+  fill: #e9e8ea;
+}
+
+.iconRight {
+  width: 43px;
+  height: 43px;
+  fill: #3b3442;
+}

@@ -1,0 +1,59 @@
+.hero {
+  margin: auto;
+  padding: 98.35px;
+  max-width: 1640px;
+  border-radius: 50px;
+  background: var(--bg-color);
+}
+.titleWrap {
+  width: 1059px;
+  height: 216px;
+  margin: auto;
+}
+.hero h1 {
+  font-family: "HK Grotesk";
+  font-weight: 700;
+
+  font-size: 90px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.infoWrap {
+  max-width: 957px;
+  margin: 20px auto;
+}
+
+.infoWrap p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.92;
+  text-align: center;
+  color: var(--text-color-two);
+}
+
+.btnCover {
+  gap: 18.5px;
+  margin: 40.81px auto;
+  width: 285.97px;
+  height: 76.77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.btnCover a {
+  margin-top: 3px;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.iconPlay {
+  width: 40px;
+  height: 40px;
+}

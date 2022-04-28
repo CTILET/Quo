@@ -1,0 +1,26 @@
+.container {
+  margin-top: 299px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 198px;
+}
+
+.info {
+  margin-left: 200px;
+  width: 770px;
+}
+
+.info h1 {
+  width: 730px;
+  margin-bottom: 29px;
+  margin-top: 40px;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 48px;
+  color: rgba(10, 2, 19, 0.5);
+}

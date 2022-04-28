@@ -1,0 +1,55 @@
+.section {
+  margin-top: 270px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 27.64px;
+}
+
+.info p {
+  text-align: center;
+}
+
+.cards {
+  margin-top: 80.65px;
+  display: flex;
+  flex-direction: start;
+  gap: 31px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 481.95px;
+  height: 553.64px;
+
+  box-shadow: 0px 7px 34px rgba(137, 134, 139, 0.05);
+  border-radius: 10px;
+  transition: ease-in-out 400ms;
+}
+
+.card h5 {
+  margin-top: 27.38px;
+  font-size: 35px;
+}
+
+.card p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(10, 2, 19, 0.5);
+}
+
+.card:hover {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(62, 70, 77, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(62, 70, 77, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(62, 70, 77, 0.2);
+}

@@ -1,0 +1,133 @@
+.info {
+  margin-top: 206px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoText {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.titleWrap {
+  max-width: 709px;
+  margin-bottom: 29.64px;
+}
+
+.titleWrap h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 142%;
+}
+
+.subtItleWrap p {
+  width: 770px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 192%;
+}
+
+.btn {
+  margin-top: 41.69px;
+  width: 198px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.iconArrow {
+  fill: #111;
+}
+
+.btn a {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 192%;
+  color: rgba(10, 2, 19, 1);
+}
+
+.backgroundView {
+  width: 512.28px;
+  height: 406.81px;
+  background: rgba(108, 96, 254, 0.05);
+  border-radius: 10px;
+  position: relative;
+}
+
+.aeeHand {
+  position: absolute;
+  width: 140.38px;
+  height: 140.38px;
+  right: 58.87px;
+  top: 23.83px;
+}
+
+.cards {
+  position: relative;
+}
+.frontalView {
+  width: 512.28px;
+  height: 406.81px;
+  background: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  top: 168.54px;
+  right: 174.9px;
+  box-shadow: 12px 15px 50px 3px rgba(169, 167, 170, 0.15);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+}
+
+.cardTitle div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104.56px;
+  width: 234.34px;
+}
+
+.cardTitle h5 {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.1;
+}
+
+.active {
+  border-bottom: 4px solid #031b71;
+}
+
+.cardInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 12px;
+  align-items: center;
+}
+
+.currancyChanger {
+  width: 164.4px;
+  height: 61.79px;
+  background: #3b32a6;
+  border-radius: 0px 5px 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currancyChanger :nth-child(1) {
+  margin-right: 14.69px;
+}
+
+.currancyChanger p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+
+.hiIcon {
+  position: absolute;
+
+  bottom: -50px;
+}

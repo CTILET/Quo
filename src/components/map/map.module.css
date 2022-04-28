@@ -1,0 +1,21 @@
+.section {
+  margin-top: 260px;
+  background-color: #2d23a5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section h1 {
+  margin-top: 95px;
+}
+
+.section p {
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 1207px;
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 106px;
+}

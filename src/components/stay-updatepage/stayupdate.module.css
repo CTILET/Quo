@@ -1,0 +1,12 @@
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 295px;
+  margin-bottom: 202px;
+  gap: 125px;
+}
+
+.info h1 {
+  width: 760px;
+}

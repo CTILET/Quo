@@ -1,0 +1,109 @@
+:root {
+  --bg-color: rgba(108, 96, 254, 0.05);
+  --primary-color: #6c60fe;
+  --text-color: #09053f;
+  --text-color-two: rgba(10, 2, 19, 0.5);
+  --light-text-color: #0a021380;
+  --black-text-color: #000000;
+}
+
+body {
+  margin: 0;
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: "TT Commons", sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.otherHeaders {
+  font-family: "HK Grotesk";
+  font-weight: 600;
+  color: #000000;
+  font-size: 60px;
+  line-height: 142%;
+}
+
+.paragraph {
+  margin: 0;
+  color: rgba(10, 2, 19, 0.5);
+  line-height: 192%;
+  font-weight: 400;
+  font-size: 25px;
+  max-width: 770px;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1640px;
+}
+
+.btn {
+  color: white;
+  line-height: 1.9;
+  padding: 11px 27px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.btnWhite {
+  color: rgba(10, 2, 19, 1);
+  background: #f6f6f9;
+  /* background: #a0a093; */
+  border-radius: 10px;
+  padding: 11px 22.85px;
+  width: 198px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 192%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 11px;
+  margin-top: 30px;
+}
+
+.dropdown {
+  fill: #ffffff;
+}
+
+.text-class {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 192%;
+  font-family: "TT Commons", sans-serif;
+}
+
+.learnHow {
+  color: rgba(10, 2, 19, 1);
+  background: #f6f6f9;
+  /* background: #a0a093; */
+  border-radius: 10px;
+  padding: 11px 27px;
+}
+
+.iconArrow {
+  fill: #111;
+  margin-bottom: 2px;
+}
+
+.map {
+  max-width: 100%;
+}
+
+section {
+  max-width: 1998px;
+  margin: auto;
+}

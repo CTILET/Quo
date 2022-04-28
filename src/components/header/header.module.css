@@ -1,0 +1,42 @@
+.logo {
+  width: 101px;
+}
+
+.header {
+  display: flex;
+  padding: 60px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 35px;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 92px;
+}
+
+.navLink {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.navLink.btn {
+  color: white;
+}
+
+.navBtns {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 21.7px;
+}
+
+.activeBtn {
+  color: #ffffff;
+}

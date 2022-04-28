@@ -1,0 +1,39 @@
+.mainHeader {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 142%;
+  margin-top: 344px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 163px;
+}
+.info {
+  width: 770px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerOverWrap {
+  margin-top: 80px;
+}
+
+.info p {
+  margin-top: 30px;
+}
+
+.headerOverWrap {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 142%;
+}
+
+.btn {
+  margin-top: 30px;
+}
